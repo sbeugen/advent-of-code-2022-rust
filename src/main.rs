@@ -12,6 +12,7 @@ fn main() {
     match day {
         1 => puzzles::day_1::day_1(puzzle),
         2 => puzzles::day_2::day_2(puzzle),
+        3 => puzzles::day_3::day_3(puzzle),
         _ => panic!("Day {} not implemented yet", day)
     }
 }
