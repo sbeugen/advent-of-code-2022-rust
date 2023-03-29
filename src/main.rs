@@ -18,6 +18,7 @@ fn main() {
         2 => puzzles::day_2::day_2(puzzle),
         3 => puzzles::day_3::day_3(puzzle),
         4 => puzzles::day_4::day_4(puzzle),
+        6 => puzzles::day_6::day_6(puzzle),
         _ => panic!("Day {} not implemented yet", day)
     }
 
